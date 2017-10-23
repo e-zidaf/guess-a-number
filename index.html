@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/guess-a-number/style.css">
+  <title>Guess a number</title>
+</head>
+
+<body>
+  <h1>Guess a number</h1>
+  <h5>A simple JavaScript game by @ezidaf</h5>
+
+  <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+  <div class="form">
+    <label for="guessField">Enter a guess: </label>
+    <input type="text" id="guessField" class="guessField">
+    <input type="submit" value="Submit guess" class="guessSubmit">
+  </div>
+
+  <div class="resultParas">
+    <p class="guesses"></p>
+    <p class="lastResult"></p>
+    <p class="lowOrHi"></p>
+  </div>
+
+  <script src="/guess-a-number/script.js"></script>
+
+</body>
+</html>
